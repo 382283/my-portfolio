@@ -12,14 +12,17 @@ header li {
   justify-content: space-between;
   margin: 10px;
 }
+
 header a {
   color: white;
 }
+
 header a:hover {
   text-decoration: none;
   font-size: 1.2em;
   cursor: pointer;
 }
+
 header {
   background-color: black;
   color: white;
@@ -33,43 +36,44 @@ header ul {
   list-style: none;
   display: flex;
 }
+
 main {
   flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.text {
+  max-width: 60%;
 }
 
 .name {
-  align-items: end;
+  margin-bottom: 10px;
 }
-.name h2 {
-  margin-right: 32px;
+
+.name h6 {
+  margin: 0;
 }
+
+.name h1 {
+  margin: 0;
+}
+
 .profile {
   display: flex;
   margin-top: 10px;
 }
-.univarsity {
-  font-size: 32px;
-}
-footer {
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: black;
-}
-footer img {
-  width: 3em;
-  height: auto;
-}
-footer a {
-  color: black;
-  text-decoration: none;
-  transition: all 0.2s ease;
-  justify-content: space-between;
-  margin: 10px;
-}
-footer a:hover {
-  text-decoration: underline;
+
+.profile h2 {
+  margin-right: 16px;
 }
 
 .image {
@@ -87,4 +91,29 @@ footer a:hover {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+
+footer {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+}
+
+footer img {
+  width: 3em;
+  height: auto;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
